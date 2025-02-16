@@ -11,3 +11,5 @@ isce.log
 .ipynb_checkpoints
 .venv_isce2
 .python-version
+build/
+install/
