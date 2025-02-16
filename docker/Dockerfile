@@ -21,6 +21,7 @@ RUN set -ex \
     python3-h5py \
     python3-numpy \
     python3-scipy \
+    gfortran \
  && echo done
 
 # copy repo
