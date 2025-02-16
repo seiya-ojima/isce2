@@ -1,0 +1,30 @@
+# ISCE のビルドディレクトリ
+PRJ_SCONS_BUILD = /home/ojima/Development/MyWork/isce2/build
+
+# ISCE のインストールディレクトリ
+PRJ_SCONS_INSTALL = /home/ojima/Development/MyWork/isce2/install
+
+# ライブラリのパス
+LIBPATH = /lib/x86_64-linux-gnu /usr/local/lib /usr/lib/x86_64-linux-gnu/hdf5/serial
+
+# Python のヘッダファイルの場所 (Python のバージョンを自動取得)
+CPPPATH = /home/ojima/.pyenv/versions/3.12.9/include/python3.12 /home/ojima/Development/MyWork/isce2/.venv_isce2/lib/python3.12/site-packages/numpy/core/include /usr/include/hdf5/serial /usr/include/opencv4/
+
+# FFTW3 のヘッダファイルのパス
+FORTRANPATH = /usr/include
+
+# Fortran コンパイラのパス
+FORTRAN = /usr/bin/gfortran
+
+# C コンパイラのパス
+CC = /usr/bin/gcc
+
+# C++ コンパイラのパス
+CXX = /usr/bin/g++
+
+# MDX (Motif GUI) のライブラリパス
+MOTIFLIBPATH = /usr/lib/x86_64-linux-gnu
+X11LIBPATH   = /usr/lib/x86_64-linux-gnu
+MOTIFINCPATH = /usr/include
+X11INCPATH   = /usr/include
+
